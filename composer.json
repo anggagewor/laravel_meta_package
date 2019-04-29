@@ -1,0 +1,24 @@
+{
+    "name": "anggagewor/laravel_meta_package",
+    "description": "Laravel Meta Package",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angga Purnama",
+            "email": "anggagewor@gmail.com",
+            "homepage": "https://facebook.com/anggagewor",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "barryvdh/laravel-debugbar": "^3.2",
+        "spatie/laravel-permission": "^2.37",
+        "doctrine/dbal": "^2.9",
+        "laravel/framework": "5.8.*",
+        "superbalist/laravel-google-cloud-storage": "^2.2"
+    },
+    "prefer-stable": true
+}
